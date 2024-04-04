@@ -8,24 +8,22 @@
     </head>
 
     <body>
-        <!--TODO: Remove that stuff-->
-        <h1>Hello World!</h1>
-        <h1>My first EVER html page!</h1>
+        <header>
+            <h1>My first EVER html page!</h1>
 
-        <hr>
-        <nav>            <!--DON'T FORGET TO EDIT NAVIGATION LIST-->   
-            <ul>          <!--NAVIGATION UNORDERED LIST-->
-                <li>
-                    <a href="#filler_text">Read some meaningless stuff</a>
-                </li>
-                <li>
-                    <a href="#cat_links">Learn about cat's language</a>
-                </li>
-            </ul>
-        </nav>
-        <hr>
+            <nav aria-label="primary navigation">            <!--DON'T FORGET TO EDIT NAVIGATION LIST-->   
+                <ul>          <!--NAVIGATION UNORDERED LIST-->
+                    <li>
+                        <a href="#filler_text">Read some meaningless stuff</a>
+                    </li>
+                    <li>
+                        <a href="#cat_links">Learn about cat's language</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-        <section id = "filler_text">
+        <article id = "filler_text">
             <hr>
 
             <h2>Pure Fiction!</h2>
@@ -35,11 +33,13 @@
                     Haha silly cat
                 </figcaption>
             </figure>
+            
             <p>test text: 
                 <br>&nbsp;...bla bla bla
                 <br>&nbsp;&nbsp;...<abbr title="Typical cat sound in en"><a href="https://en.wikipedia.org/wiki/Cat">meow</a></abbr> meow meow
             </p>
             <br>
+            
             <ul>
                 <li>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos perferendis pariatur, nisi aliquam modi, provident maiores non nostrum doloribus, deserunt harum? Temporibus architecto, rerum ratione minus laboriosam labore debitis in.
@@ -47,8 +47,15 @@
                     Molestiae tempora sequi quo exercitationem soluta perspiciatis cum voluptatibus asperiores veritatis voluptatem, dolor nostrum pariatur placeat magnam animi voluptas laudantium deleniti ad iusto. Adipisci eaque dignissimos tenetur quos expedita neque!</p>
                 </li>
             </ul>
-            <hr>
-        </section>
+            <aside>
+                <details>
+                    <summary>Guess the number of cat pictures I store on my PC</summary>
+                    <p>Really <mark>a lot^^</mark></p>
+                </details>
+            </aside>
+        </article>
+
+        <hr>
 
         <section id = "cat_links">
             <h2>You can find cats to chat with here:</h2>
@@ -58,8 +65,10 @@
             </address>
         </section>
         <hr>
-        <p>
-            <a href="#">Back to Top</a>
-        </p>
+        <footer>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+        </footer>
     </body>
 </html>
